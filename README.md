@@ -40,7 +40,7 @@ docker: https://phoenixnap.com/kb/docker-on-raspberry-pi
 ```
 sudo docker run --name ros-noetic-env --net host -e DISPLAY=:0 --privileged -it arm64v8/ros:noetic
 ```
-3:
+3: GUI
 ```
 #In the terminal (not in docker container)
 # Run GUI application in container after following command 
